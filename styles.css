@@ -172,3 +172,106 @@ a {
 .burger-icon span:first-child {
     transform: none;
 }
+
+/* Section */
+
+section {
+    padding-top: 4vh;
+    /* height: 96vh; */
+    /* margin: 0 10rem;  */
+    box-sizing: border-box;
+    /* min-height: fit-content; */
+  }
+  
+  .section-container {
+    display: flex;
+  }
+  
+  /* PROFILE SECTION */
+  
+  #profile {
+    margin-top: 200px;
+    margin-bottom: 170px;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    /* height: 80vh; */
+  }
+
+  
+  
+  /*
+  .section__pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+  }
+  */
+  
+.section__text {
+    align-self: center;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(141deg, #969699, #1e1e22);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+  
+.section__text p {
+    /* font-weight: 600; */
+}
+  
+.section__text__p1 {
+    text-align: center;
+    /* opacity: 0.5; */
+}
+  
+.section__text__p2 {
+    /* font-size: 1.75rem; */
+    margin-top: 1rem;
+    margin-bottom: 0.1rem;
+}
+
+#city {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+#location {
+    height: 22px;
+    /* background-color: rebeccapurple; */
+}
+
+.location {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin-left: 10px;
+    /* background-color: red; */
+}
+
+
+.enjoying {
+    /* opacity: 0.8; */
+    /* -webkit-text-fill-color: transparent; */
+    /* background-image: linear-gradient(141deg, #969699, #1e1e22); */
+    /* -webkit-background-clip: text; */
+    /* background-clip: text; */
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: -1.25px;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(141deg, #969699, #1e1e22);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 70px;
+    /* display: inline-block; */
+    /* position: relative; */
+    margin-bottom: 40px;
+}
+
