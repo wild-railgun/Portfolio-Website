@@ -1,3 +1,22 @@
+:root {
+    --main-color: #f9f9f9;
+    --child-color: #f1f1f1;
+    /* --main-dark-color: #535353; */
+    --main-dark-color: #000;
+    /* --main-dark-color: #1f1f1f; */
+    /* --child-dark-color: #5a5a5a; */
+    --child-dark-color: #222222;
+    --blue-color: #0c0047;
+    --child-blue-color: #0d0050;
+    /* --main-color: #ff5733; */
+    /* The first colors that I was using */
+    --color: #f4f5f7; /* main color */
+    --color2: #e6e6e6;
+    --color3: #eceff1;
+    --color4: #f0f0f0;
+    --color5: #e7e7e7
+}
+
 * {
     padding: 0;
     margin: 0;
