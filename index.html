@@ -4,15 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-    </nav>
+    
+    <div class="container">
+        
+        <nav class="nav hidden">
+            <ul class="nav-links">
+                <li id="home">
+                  <a href="#home">        
+                    <img src="assets/bx-home.svg" alt="" id="moon">
+                  </a>
+                </li>
+                <li class="color-changer">
+                    <div class="child child1">CV</div>
+                    <div class="child child2">Blog</div>
+                </li>
+                <div id="burger-menu">
+                    <div class="burger-icon" onclick="toggleNavMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="burger-links">
+                        <li><a href="#home" onclick="toggleNavMenu()">Home</a></li>
+                        <li><a href="#about" onclick="toggleNavMenu()">About</a></li>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+
+    </div>
     
 </body>
 </html>
