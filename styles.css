@@ -14,7 +14,8 @@
     --color2: #e6e6e6;
     --color3: #eceff1;
     --color4: #f0f0f0;
-    --color5: #e7e7e7
+    --color5: #e7e7e7;
+    --color6: #e6e6e6;
 }
 
 * {
@@ -113,6 +114,13 @@ a {
     position: relative;
     /* box-shadow: 0 0 #e2e4e5, 0 4px 24px #c0c0c0; */
     box-shadow:  0 0 #e6ebef, 0 4px 24px #d0d0d0;
+}
+
+/* ICONS */
+  
+.icon {
+    cursor: pointer;
+    height: 2rem;
 }
 
 #moon {
@@ -320,3 +328,24 @@ section {
     /* box-shadow: 0 0 #e2e4e5, 0 4px 24px #c0c0c0; */
     box-shadow:  0 0 #e6ebef, 0 4px 24px #ccc;;
 }
+
+/* Footer Styles */
+
+footer {
+    background-color: var(--child-color);
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  0 0 #e6ebef, 0 4px 24px #aaa;
+    /* flex-wrap: wrap; */
+}
+  
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+    width: 100%;
+}
+ 
