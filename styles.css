@@ -332,6 +332,12 @@ section {
     box-shadow:  0 0 #e6ebef, 0 4px 24px #ccc;;
 }
 
+.project1 {
+    background: url(assets/plane-in-the-middle-of-buildings.jpg);
+    background-size: contain;
+    background-position: center center;
+}
+
 /* Footer Styles */
 
 footer {
