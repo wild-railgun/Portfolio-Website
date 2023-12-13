@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --main-color: #f9f9f9;
     --child-color: #f1f1f1;
@@ -19,12 +25,6 @@
     --color7: #e2e2e2;
     --color8: #e1e1e1;
     --color9: #e9e9e9;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -227,8 +227,6 @@ section {
     gap: 5rem;
     /* height: 80vh; */
   }
-
-  
   
   /*
   .section__pic-container {
@@ -248,9 +246,9 @@ section {
     background-clip: text;
 }
   
-.section__text p {
+/* .section__text p { */
     /* font-weight: 600; */
-}
+/* } */
   
 .section__text__p1 {
     text-align: center;
@@ -261,7 +259,14 @@ section {
     /* font-size: 1.75rem; */
     margin-top: 1rem;
     margin-bottom: 0.1rem;
+    /* opacity: 0.5; */
 }
+
+p:hover {
+    opacity: 0.5;
+}
+
+
 
 #city {
     display: flex;
@@ -283,13 +288,13 @@ section {
 }
 
 
-.enjoying {
+/* .enjoying { */
     /* opacity: 0.8; */
     /* -webkit-text-fill-color: transparent; */
     /* background-image: linear-gradient(141deg, #969699, #1e1e22); */
     /* -webkit-background-clip: text; */
     /* background-clip: text; */
-}
+/* } */
 
 .title {
     font-size: 3rem;
@@ -357,4 +362,16 @@ footer {
     gap: 1rem;
     width: 100%;
 }
- 
+
+/* Some Styles for the Page about.html for the Parts That are Different */
+
+  /* Detail Section */
+  
+  #detail {
+    margin-top: 200px;
+    margin-bottom: 170px;
+    display: flex;
+    justify-content: center;
+    gap: 50rem;
+    /* height: 80vh; */
+  }
