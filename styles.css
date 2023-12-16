@@ -338,6 +338,18 @@ section {
     background-position: center center;
 }
 
+.project2 {
+    background: url(assets/Game.png);
+    background-size: contain;
+    background-position: center center;
+}
+
+.project3 {
+    background: url(assets/ProShop_Image.png);
+    background-size: contain;
+    background-position: center center;
+}
+
 /* Footer Styles */
 
 footer {
