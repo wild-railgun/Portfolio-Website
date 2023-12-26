@@ -350,6 +350,10 @@ section {
     background-position: center center;
 }
 
+.p_2 {
+    display: none;
+}
+
 /* Footer Styles */
 
 footer {
