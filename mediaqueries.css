@@ -159,5 +159,45 @@
 }  
 
 @media screen and (max-width: 600px) {
+    .container {  
+        width: 95%;
+        /* margin-left: 10%; */
+        /* border: 2px solid blue; */
+    }
     
+    nav {
+        width: 90%;
+        margin-left: 2.5%;
+
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    #moon {
+        height: 22.5px;
+        width: 22.5px;
+        /* background: #aaa; */
+    }
+
+    #home, #burger-menu {
+        width: 45px;
+        height: 45px;
+    }
+
+    .color-changer {
+        width: 137px;
+        height: 45px; /* ratio of the width above and this height is 2.98208 */
+    }    
+      
+    .child1 {
+        width: 64px;
+        height: 37px; /* ratio of 85.5 and 49.5 is 1.727272....
+        /* box-shadow: 0 0 #e2e4e5, 0 4px 24px #c0c0c0; */
+    }
+      
+    .child2 {
+        width: 59px;
+        height: 37px;
+    }
 }
