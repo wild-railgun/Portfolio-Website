@@ -336,18 +336,21 @@ section {
     background: url(assets/plane-in-the-middle-of-buildings.jpg);
     background-size: contain;
     background-position: center center;
+    /* background-repeat: no-repeat; */
 }
 
 .project2 {
     background: url(assets/Game.png);
     background-size: contain;
     background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .project3 {
     background: url(assets/ProShop_Image.png);
     background-size: contain;
     background-position: center center;
+    background-repeat: no-repeat;
 }
 
 #projects {
