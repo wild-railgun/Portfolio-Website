@@ -3,6 +3,11 @@
 }
   
 @media screen and (max-width: 1200px) {
+     /* About Page Styles about.html */
+
+     .container_about {  
+        width: 60%;
+    }   
 
 }
   
@@ -156,6 +161,12 @@
         margin-bottom: 20px;
     }
 
+    /* About Page Styles about.html */
+
+    .container_about {  
+        width: 75%;
+    }
+
 }  
 
 @media screen and (max-width: 600px) {
@@ -169,6 +180,12 @@
         width: 90%;
         margin-left: 2.5%;
 
+    }
+
+    /* About Page Styles about.html */
+
+    .container_about {  
+        width: 80%;
     }
 
 }
@@ -200,4 +217,10 @@
         width: 59px;
         height: 37px;
     }
+
+     /* About Page Styles about.html */
+
+     .container_about {  
+        width: 92%;
+    }   
 }
