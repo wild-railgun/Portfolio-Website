@@ -341,6 +341,13 @@ section {
     box-shadow:  0 0 #e6ebef, 0 4px 24px #ccc;;
 }
 
+.project0 {
+    background: url(assets/project_resume.png);
+    background-size: contain;
+    background-position: center center;
+    /* background-repeat: no-repeat; */
+}
+
 .project1 {
     background: url(assets/plane-in-the-middle-of-buildings.jpg);
     background-size: contain;
@@ -360,6 +367,13 @@ section {
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+.project4 {
+    background: url(assets/project_blog.png);
+    background-size: contain;
+    background-position: center center;
+    /* background-repeat: no-repeat; */
 }
 
 #projects {
