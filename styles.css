@@ -434,3 +434,7 @@ footer {
     font-size:20px;
     line-height: 170%;
   }
+
+#about-links a {
+    background: silver;
+}
